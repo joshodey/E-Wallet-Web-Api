@@ -1,0 +1,87 @@
+2022-12-06 01:22:51.2175 INFO 
+2022-12-06 01:22:51.2639 ERROR The given key 'US' was not present in the dictionary.
+2022-12-06 01:22:51.2639 DEBUG System.Private.CoreLib
+2022-12-06 01:22:51.3137 WARN    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Core.Implementations.TransactionRepo.getApi(String currency) in C:\Users\Decagon\source\repos\week-9-10-grp-c\Core\Implementations\TransactionRepo.cs:line 252
+2022-12-06 01:26:55.2809 INFO 
+2022-12-06 01:26:55.2809 ERROR The given key 'AEG' was not present in the dictionary.
+2022-12-06 01:26:55.2809 DEBUG System.Private.CoreLib
+2022-12-06 01:26:55.2809 WARN    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Core.Implementations.TransactionRepo.getApi(String currency) in C:\Users\Decagon\source\repos\week-9-10-grp-c\Core\Implementations\TransactionRepo.cs:line 252
+2022-12-06 01:42:08.7496 INFO 
+2022-12-06 01:42:09.4165 ERROR Please Check Your Credential info
+2022-12-06 01:42:14.2898 DEBUG Core
+2022-12-06 01:42:20.2577 WARN    at Core.Implementations.UserRepository.Register(UserRegistionDto userRegistionDto) in C:\Users\Decagon\source\repos\week-9-10-grp-c\Core\Implementations\UserRepository.cs:line 70
+2022-12-06 01:44:35.9778 INFO 
+2022-12-06 01:44:53.1410 ERROR Operation is not valid due to the current state of the object.
+2022-12-06 01:44:53.1410 DEBUG Core
+2022-12-06 01:44:53.1410 WARN    at Core.Implementations.UserRepository.Register(UserRegistionDto userRegistionDto)
+2022-12-06 01:49:12.9017 INFO System.NullReferenceException: Object reference not set to an instance of an object.
+   at lambda_method22(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+2022-12-06 01:49:39.1425 ERROR An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+2022-12-06 01:49:39.1425 DEBUG Microsoft.EntityFrameworkCore
+2022-12-06 01:49:39.1425 WARN    at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at System.Linq.Expressions.BinaryExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression, Boolean clearEvaluatedValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at Core.Implementations.UserRepository.RemoveUser(String userid)
+2022-12-06 02:04:46.9977 INFO 
+2022-12-06 02:05:04.5304 ERROR Object reference not set to an instance of an object.
+2022-12-06 02:05:04.5304 DEBUG Core
+2022-12-06 02:05:04.5304 WARN    at Core.Implementations.UserRepository.UpdateUser(UserRegistionDto user) in C:\Users\Decagon\source\repos\week-9-10-grp-c\Core\Implementations\UserRepository.cs:line 134
+2022-12-06 02:07:08.9971 INFO System.NullReferenceException: Object reference not set to an instance of an object.
+   at lambda_method15(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+2022-12-06 02:07:08.9971 ERROR An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+2022-12-06 02:07:08.9971 DEBUG Microsoft.EntityFrameworkCore
+2022-12-06 02:07:08.9971 WARN    at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at System.Linq.Expressions.BinaryExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at System.Linq.Expressions.UnaryExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression, Boolean clearEvaluatedValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at Core.Implementations.UserRepository.UpdateUser(UserRegistionDto user)
+2022-12-06 02:11:05.2152 INFO 
+2022-12-06 02:11:21.2150 ERROR editedUser
+2022-12-06 02:11:22.7329 DEBUG Core
+2022-12-06 02:11:24.8046 WARN    at Core.Implementations.UserRepository.UpdateUser(UserRegistionDto user)
+2022-12-06 02:20:28.0608 INFO 
+2022-12-06 02:20:50.0976 ERROR Object reference not set to an instance of an object.
+2022-12-06 02:20:53.2687 DEBUG Core
+2022-12-06 02:20:53.2687 WARN    at Core.Implementations.UserRepository.GetUserByUserName(String username) in C:\Users\Decagon\source\repos\week-9-10-grp-c\Core\Implementations\UserRepository.cs:line 157

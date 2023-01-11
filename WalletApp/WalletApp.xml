@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WalletApp</name>
+    </assembly>
+    <members>
+        <member name="M:WalletApp.Controllers.TransactionsController.#ctor(Core.Services.ITransaction)">
+            <summary>
+            
+            </summary>
+            <param name="transaction"></param>
+        </member>
+        <member name="M:WalletApp.Controllers.TransactionsController.GetAllTransaction(Entity.Helper.PaginatedParameters)">
+            <summary>
+            Get all Transactions in the database
+            </summary>
+            <param name="parameter">Return number items specified by a user</param>
+            <returns> IActionResult</returns>
+        </member>
+        <member name="M:WalletApp.Controllers.TransactionsController.Deposit(Entity.DTOModels.TransactionDto,System.String)">
+            <summary>
+            Enable User To Deposit fund into his / her wallet
+            </summary>
+            <param name="deposit"></param>
+            <param name="walletaddress"></param>
+            <returns>IActionResult</returns>
+        </member>
+        <member name="M:WalletApp.Controllers.TransactionsController.Withdrawal(Entity.DTOModels.TransactionDto,System.String)">
+            <summary>
+            Remove fund from a wallet
+            </summary>
+            <param name="withdraw"></param>
+            <param name="walletaddress"></param>
+            <returns>IActionResult</returns>
+        </member>
+        <member name="M:WalletApp.Controllers.TransactionsController.Transfer(System.Double,System.String,System.String,System.String)">
+            <summary>
+            Transfers fund from a wallet to another wallet using wallet addresses
+            </summary>
+            <param name="transferAmount"></param>
+            <param name="description"></param>
+            <param name="senderWalletAdress"></param>
+            <param name="receivingWalletAddress"></param>
+            <returns>IActionResult</returns>
+        </member>
+        <member name="M:WalletApp.Controllers.TransactionsController.GetTransactionsByWalletAddress(Entity.Helper.PaginatedParameters,System.String)">
+            <summary>
+            Get wallet transaction history by wallet address
+            </summary>
+            <param name="parameters"></param>
+            <param name="walletaddress"></param>
+            <returns>IActionResult</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WalletApp.Controllers.TransactionsController.RetrieveWalletDetails(System.String,System.String)" -->
+        <member name="M:WalletApp.Controllers.UserController.#ctor(Core.Services.IUserRepository)">
+            <summary>
+            
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:WalletApp.Controllers.UserController.AddUser(Entity.DTOModels.UserRegistionDto)">
+            <summary>
+            Create new user
+            </summary>
+            <param name="register"></param>
+            <returns>IActionResult</returns>
+        </member>
+        <member name="M:WalletApp.Controllers.UserController.LoginUser(Entity.DTOModels.UserLoginDto)">
+            <summary>
+            Give users access to the database
+            </summary>
+            <param name="login"></param>
+            <returns>IActionResult</returns>
+        </member>
+        <member name="M:WalletApp.Controllers.UserController.UpdateUser(Entity.DTOModels.UserRegistionDto)">
+            <summary>
+            Enables users to update their information
+            </summary>
+            <param name="details"></param>
+            <returns>IActionResult</returns>
+        </member>
+        <member name="M:WalletApp.Controllers.UserController.GetAllUsers(Entity.Helper.PaginatedParameters)">
+            <summary>
+            Return all user in the database
+            </summary>
+            <returns>IActionResult</returns>
+        </member>
+        <member name="M:WalletApp.Controllers.UserController.GetUserByUsername(System.String)">
+            <summary>
+            Return user by username
+            </summary>
+            <param name="username"></param>
+            <returns>IActtionResult</returns>
+        </member>
+        <member name="M:WalletApp.Controllers.UserController.RemoveUser(System.String)">
+            <summary>
+            Delete User by user Id
+            </summary>
+            <param name="userid"></param>
+            <returns>IActonResult</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,645 @@
+2022-11-29 00:14:27.0486 Info Message Template Auto Format enabled
+2022-11-29 00:14:27.0990 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-11-29 00:14:27.1884 Debug Setting 'NLog.Targets.FileTarget.name' to 'Walletfile'
+2022-11-29 00:14:27.1988 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-11-29 00:14:27.2135 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-29 00:14:27.2135 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-11-29 00:14:27.2312 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-11-29 00:14:27.2312 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-29 00:14:27.2312 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-11-29 00:14:27.2312 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-29 00:14:27.2435 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-11-29 00:14:27.2435 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-29 00:14:27.2435 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-11-29 00:14:27.2435 Debug Adding target FileTarget(Name=Walletfile)
+2022-11-29 00:14:27.2435 Info Registered target FileTarget(Name=Walletfile)
+2022-11-29 00:14:27.2435 Trace ParseRulesElement
+2022-11-29 00:14:27.2955 Debug Watching file-filter 'NLog.config' in directory: C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0
+2022-11-29 00:14:27.2955 Debug --- NLog configuration dump ---
+2022-11-29 00:14:27.2955 Debug Targets:
+2022-11-29 00:14:27.3015 Debug FileTarget(Name=Walletfile)
+2022-11-29 00:14:27.3015 Debug Rules:
+2022-11-29 00:14:27.3015 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]
+2022-11-29 00:14:27.3015 Debug --- End of NLog configuration dump ---
+2022-11-29 00:14:27.3165 Trace FindReachableObject<System.Object>:
+2022-11-29 00:14:27.3165 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]'
+2022-11-29 00:14:27.3165 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-11-29 00:14:27.3165 Trace  Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-11-29 00:14:27.3165 Trace   Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-11-29 00:14:27.3165 Trace   Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-11-29 00:14:27.3165 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-11-29 00:14:27.3165 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-29 00:14:27.3165 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-11-29 00:14:27.3315 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-29 00:14:27.3315 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-11-29 00:14:27.3315 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-11-29 00:14:27.3315 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-11-29 00:14:27.3315 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-11-29 00:14:27.3315 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-29 00:14:27.3315 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-11-29 00:14:27.3315 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-29 00:14:27.3315 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-11-29 00:14:27.3315 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-11-29 00:14:27.3315 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-11-29 00:14:27.3315 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-11-29 00:14:27.3315 Info Validating config: TargetNames=Walletfile, ConfigItems=12, FilePath=C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0\NLog.config
+2022-11-29 00:14:27.3522 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-11-29 00:14:27.3522 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-11-29 00:14:27.3522 Trace Initializing Layout Renderer: ${message}
+2022-11-29 00:14:27.3522 Trace Initializing Layout Renderer: ${literal}
+2022-11-29 00:14:27.3522 Trace Initializing Layout Renderer: ${level}
+2022-11-29 00:14:27.3522 Trace Initializing Layout Renderer: ${literal}
+2022-11-29 00:14:27.3651 Trace Initializing Layout Renderer: ${longdate}
+2022-11-29 00:14:27.3651 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-11-29 00:14:27.3651 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-29 00:14:27.3651 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-11-29 00:14:27.3651 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-11-29 00:14:27.3651 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-11-29 00:14:27.3651 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-29 00:14:27.3651 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-11-29 00:14:27.3651 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-29 00:14:27.3651 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-11-29 00:14:27.3651 Trace Initializing Layout Renderer: ${literal}
+2022-11-29 00:14:27.3651 Trace Initializing Layout Renderer: ${shortdate}
+2022-11-29 00:14:27.3651 Trace Initializing Layout Renderer: ${literal}
+2022-11-29 00:14:27.3651 Trace Initializing C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt
+2022-11-29 00:14:27.3808 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-11-29 00:14:27.3808 Trace Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-11-29 00:14:27.3808 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-11-29 00:14:27.3808 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-29 00:14:27.3808 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-11-29 00:14:27.3808 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-11-29 00:14:27.3808 Trace Initializing FileTarget(Name=Walletfile)
+2022-11-29 00:14:27.3808 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-11-29 00:14:27.3808 Trace Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-11-29 00:14:27.3808 Trace  Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-11-29 00:14:27.3808 Trace  Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-11-29 00:14:27.3808 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-11-29 00:14:27.3808 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-11-29 00:14:27.3808 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-11-29 00:14:27.3808 Trace FileTarget(Name=Walletfile) has 2 layouts
+2022-11-29 00:14:27.3808 Trace FileTarget(Name=Walletfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-11-29 00:14:27.3981 Info Configuration initialized.
+2022-11-29 00:14:27.4204 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.0.1480. Product version: 5.1.0+5e6708d4d288e03b3ddf321838ec14907016f1b8. GlobalAssemblyCache: False
+2022-11-29 00:14:27.4302 Debug Targets configured when LogLevel >= Debug for Logger: LoggerService.Log.LoggerManager
+2022-11-29 00:14:27.4302 Debug Logger LoggerService.Log.LoggerManager [Debug] => Walletfile
+2022-11-29 00:14:27.4302 Debug Logger LoggerService.Log.LoggerManager [Info] => Walletfile
+2022-11-29 00:14:27.4302 Debug Logger LoggerService.Log.LoggerManager [Warn] => Walletfile
+2022-11-29 00:14:27.4302 Debug Logger LoggerService.Log.LoggerManager [Error] => Walletfile
+2022-11-29 00:14:27.4302 Debug Logger LoggerService.Log.LoggerManager [Fatal] => Walletfile
+2022-11-29 00:14:27.4809 Debug FileTarget(Name=Walletfile): Preparing for new file: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-11-29 _walletErrorLog.txt'
+2022-11-29 00:14:27.4938 Debug FileTarget(Name=Walletfile): Creating file appender: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-11-29 _walletErrorLog.txt'
+2022-11-29 00:14:27.4938 Trace FileTarget(Name=Walletfile): Opening C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-11-29 _walletErrorLog.txt with allowFileSharedWriting=False
+2022-12-03 01:17:27.6278 Info Message Template Auto Format enabled
+2022-12-03 01:17:27.6796 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-12-03 01:17:27.8154 Debug Setting 'NLog.Targets.FileTarget.name' to 'Walletfile'
+2022-12-03 01:17:27.8305 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-03 01:17:27.8537 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-03 01:17:27.8537 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-03 01:17:27.8756 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-12-03 01:17:27.8756 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-03 01:17:27.8756 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-03 01:17:27.8884 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-03 01:17:27.8884 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-03 01:17:27.8884 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-03 01:17:27.8884 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-03 01:17:27.8957 Debug Adding target FileTarget(Name=Walletfile)
+2022-12-03 01:17:27.8957 Info Registered target FileTarget(Name=Walletfile)
+2022-12-03 01:17:27.8957 Trace ParseRulesElement
+2022-12-03 01:17:27.9541 Debug Watching file-filter 'NLog.config' in directory: C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0
+2022-12-03 01:17:27.9589 Debug --- NLog configuration dump ---
+2022-12-03 01:17:27.9589 Debug Targets:
+2022-12-03 01:17:27.9589 Debug FileTarget(Name=Walletfile)
+2022-12-03 01:17:27.9589 Debug Rules:
+2022-12-03 01:17:27.9746 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]
+2022-12-03 01:17:27.9746 Debug --- End of NLog configuration dump ---
+2022-12-03 01:17:27.9904 Trace FindReachableObject<System.Object>:
+2022-12-03 01:17:27.9904 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]'
+2022-12-03 01:17:27.9904 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-12-03 01:17:27.9904 Trace  Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-03 01:17:28.0066 Trace   Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-03 01:17:28.0066 Trace   Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-03 01:17:28.0066 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-03 01:17:28.0066 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-03 01:17:28.0066 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-03 01:17:28.0066 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-03 01:17:28.0066 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-03 01:17:28.0066 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-03 01:17:28.0066 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-03 01:17:28.0066 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-03 01:17:28.0066 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-03 01:17:28.0192 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-03 01:17:28.0192 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-03 01:17:28.0192 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-03 01:17:28.0192 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-03 01:17:28.0192 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-12-03 01:17:28.0192 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-12-03 01:17:28.0192 Info Validating config: TargetNames=Walletfile, ConfigItems=12, FilePath=C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0\NLog.config
+2022-12-03 01:17:28.0399 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-12-03 01:17:28.0399 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-12-03 01:17:28.0509 Trace Initializing Layout Renderer: ${message}
+2022-12-03 01:17:28.0509 Trace Initializing Layout Renderer: ${literal}
+2022-12-03 01:17:28.0509 Trace Initializing Layout Renderer: ${level}
+2022-12-03 01:17:28.0509 Trace Initializing Layout Renderer: ${literal}
+2022-12-03 01:17:28.0509 Trace Initializing Layout Renderer: ${longdate}
+2022-12-03 01:17:28.0509 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-12-03 01:17:28.0509 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-03 01:17:28.0509 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-03 01:17:28.0509 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-03 01:17:28.0509 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-03 01:17:28.0509 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-03 01:17:28.0509 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-03 01:17:28.0509 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-03 01:17:28.0509 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-03 01:17:28.0509 Trace Initializing Layout Renderer: ${literal}
+2022-12-03 01:17:28.0509 Trace Initializing Layout Renderer: ${shortdate}
+2022-12-03 01:17:28.0509 Trace Initializing Layout Renderer: ${literal}
+2022-12-03 01:17:28.0727 Trace Initializing C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt
+2022-12-03 01:17:28.0727 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-03 01:17:28.0727 Trace Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-03 01:17:28.0727 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-03 01:17:28.0727 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-03 01:17:28.0727 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-03 01:17:28.0727 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-03 01:17:28.0727 Trace Initializing FileTarget(Name=Walletfile)
+2022-12-03 01:17:28.0817 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-12-03 01:17:28.0817 Trace Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-03 01:17:28.0817 Trace  Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-03 01:17:28.0817 Trace  Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-03 01:17:28.0817 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-03 01:17:28.0817 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-03 01:17:28.0817 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-03 01:17:28.0817 Trace FileTarget(Name=Walletfile) has 2 layouts
+2022-12-03 01:17:28.0817 Trace FileTarget(Name=Walletfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-12-03 01:17:28.0817 Info Configuration initialized.
+2022-12-03 01:17:28.1275 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.0.1480. Product version: 5.1.0+5e6708d4d288e03b3ddf321838ec14907016f1b8. GlobalAssemblyCache: False
+2022-12-03 01:17:28.1389 Debug Targets configured when LogLevel >= Debug for Logger: Infrastructure.Logging.Logger
+2022-12-03 01:17:28.1389 Debug Logger Infrastructure.Logging.Logger [Debug] => Walletfile
+2022-12-03 01:17:28.1389 Debug Logger Infrastructure.Logging.Logger [Info] => Walletfile
+2022-12-03 01:17:28.1389 Debug Logger Infrastructure.Logging.Logger [Warn] => Walletfile
+2022-12-03 01:17:28.1389 Debug Logger Infrastructure.Logging.Logger [Error] => Walletfile
+2022-12-03 01:17:28.1389 Debug Logger Infrastructure.Logging.Logger [Fatal] => Walletfile
+2022-12-03 01:17:28.2068 Debug FileTarget(Name=Walletfile): Preparing for new file: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-03 _walletErrorLog.txt'
+2022-12-03 01:17:28.2068 Debug FileTarget(Name=Walletfile): Creating file appender: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-03 _walletErrorLog.txt'
+2022-12-03 01:17:28.2295 Trace FileTarget(Name=Walletfile): Opening C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-03 _walletErrorLog.txt with allowFileSharedWriting=False
+2022-12-05 22:02:02.4887 Info Message Template Auto Format enabled
+2022-12-05 22:02:02.5084 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-12-05 22:02:02.5541 Debug Setting 'NLog.Targets.FileTarget.name' to 'Walletfile'
+2022-12-05 22:02:02.5541 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-05 22:02:02.5670 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-05 22:02:02.5670 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-05 22:02:02.5670 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-12-05 22:02:02.5670 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-05 22:02:02.5670 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-05 22:02:02.5670 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-05 22:02:02.5670 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-05 22:02:02.5670 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-05 22:02:02.5670 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-05 22:02:02.5813 Debug Adding target FileTarget(Name=Walletfile)
+2022-12-05 22:02:02.5813 Info Registered target FileTarget(Name=Walletfile)
+2022-12-05 22:02:02.5813 Trace ParseRulesElement
+2022-12-05 22:02:02.6068 Debug Watching file-filter 'NLog.config' in directory: C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0
+2022-12-05 22:02:02.6068 Debug --- NLog configuration dump ---
+2022-12-05 22:02:02.6068 Debug Targets:
+2022-12-05 22:02:02.6068 Debug FileTarget(Name=Walletfile)
+2022-12-05 22:02:02.6120 Debug Rules:
+2022-12-05 22:02:02.6120 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]
+2022-12-05 22:02:02.6120 Debug --- End of NLog configuration dump ---
+2022-12-05 22:02:02.6293 Trace FindReachableObject<System.Object>:
+2022-12-05 22:02:02.6293 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]'
+2022-12-05 22:02:02.6293 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-12-05 22:02:02.6293 Trace  Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-05 22:02:02.6293 Trace   Scanning Property FileName 'week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-05 22:02:02.6293 Trace   Scanning SimpleLayout 'week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-05 22:02:02.6293 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-05 22:02:02.6293 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-05 22:02:02.6293 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-05 22:02:02.6293 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-05 22:02:02.6293 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-05 22:02:02.6293 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-05 22:02:02.6293 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-05 22:02:02.6293 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-05 22:02:02.6293 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-05 22:02:02.6293 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-05 22:02:02.6293 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-05 22:02:02.6293 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-05 22:02:02.6293 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-05 22:02:02.6432 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-12-05 22:02:02.6432 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-12-05 22:02:02.6432 Info Validating config: TargetNames=Walletfile, ConfigItems=12, FilePath=C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0\NLog.config
+2022-12-05 22:02:02.6432 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-12-05 22:02:02.6432 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-12-05 22:02:02.6432 Trace Initializing Layout Renderer: ${message}
+2022-12-05 22:02:02.6432 Trace Initializing Layout Renderer: ${literal}
+2022-12-05 22:02:02.6432 Trace Initializing Layout Renderer: ${level}
+2022-12-05 22:02:02.6432 Trace Initializing Layout Renderer: ${literal}
+2022-12-05 22:02:02.6432 Trace Initializing Layout Renderer: ${longdate}
+2022-12-05 22:02:02.6432 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-12-05 22:02:02.6610 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-05 22:02:02.6610 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-05 22:02:02.6610 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-05 22:02:02.6610 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-05 22:02:02.6610 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-05 22:02:02.6610 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-05 22:02:02.6610 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-05 22:02:02.6610 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-05 22:02:02.6610 Trace Initializing Layout Renderer: ${literal}
+2022-12-05 22:02:02.6610 Trace Initializing Layout Renderer: ${shortdate}
+2022-12-05 22:02:02.6610 Trace Initializing Layout Renderer: ${literal}
+2022-12-05 22:02:02.6610 Trace Initializing week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt
+2022-12-05 22:02:02.6610 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-05 22:02:02.6610 Trace Scanning SimpleLayout 'week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-05 22:02:02.6610 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-05 22:02:02.6610 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-05 22:02:02.6610 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-05 22:02:02.6610 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-05 22:02:02.6610 Trace Initializing FileTarget(Name=Walletfile)
+2022-12-05 22:02:02.6610 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-12-05 22:02:02.6610 Trace Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-05 22:02:02.6610 Trace  Scanning Property FileName 'week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-05 22:02:02.6610 Trace  Scanning SimpleLayout 'week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-05 22:02:02.6610 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-05 22:02:02.6610 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-05 22:02:02.6610 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-05 22:02:02.6610 Trace FileTarget(Name=Walletfile) has 2 layouts
+2022-12-05 22:02:02.6752 Trace FileTarget(Name=Walletfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-12-05 22:02:02.6752 Info Configuration initialized.
+2022-12-05 22:02:02.6752 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.0.1480. Product version: 5.1.0+5e6708d4d288e03b3ddf321838ec14907016f1b8. GlobalAssemblyCache: False
+2022-12-05 22:02:02.6752 Debug Targets configured when LogLevel >= Debug for Logger: Infrastructure.Logging.Logger
+2022-12-05 22:02:02.6902 Debug Logger Infrastructure.Logging.Logger [Debug] => Walletfile
+2022-12-05 22:02:02.6902 Debug Logger Infrastructure.Logging.Logger [Info] => Walletfile
+2022-12-05 22:02:02.6902 Debug Logger Infrastructure.Logging.Logger [Warn] => Walletfile
+2022-12-05 22:02:02.6902 Debug Logger Infrastructure.Logging.Logger [Error] => Walletfile
+2022-12-05 22:02:02.6902 Debug Logger Infrastructure.Logging.Logger [Fatal] => Walletfile
+2022-12-05 22:02:02.7117 Debug FileTarget(Name=Walletfile): Preparing for new file: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0\week-9-10-grp-c\logs\2022-12-05 _walletErrorLog.txt'
+2022-12-05 22:02:02.7117 Debug FileTarget(Name=Walletfile): Creating file appender: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0\week-9-10-grp-c\logs\2022-12-05 _walletErrorLog.txt'
+2022-12-05 22:02:02.7226 Trace FileTarget(Name=Walletfile): Opening C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0\week-9-10-grp-c\logs\2022-12-05 _walletErrorLog.txt with allowFileSharedWriting=False
+2022-12-05 22:02:02.7226 Debug FileTarget(Name=Walletfile): DirectoryNotFoundException - Attempting to create directory for FileName: C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0\week-9-10-grp-c\logs\2022-12-05 _walletErrorLog.txt
+2022-12-06 01:22:50.8926 Info Message Template Auto Format enabled
+2022-12-06 01:22:50.9469 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-12-06 01:22:51.0124 Debug Setting 'NLog.Targets.FileTarget.name' to 'Walletfile'
+2022-12-06 01:22:51.0124 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 01:22:51.0285 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:22:51.0285 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 01:22:51.0285 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 01:22:51.0285 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:22:51.0285 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 01:22:51.0441 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:22:51.0441 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 01:22:51.0441 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:22:51.0441 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 01:22:51.0441 Debug Adding target FileTarget(Name=Walletfile)
+2022-12-06 01:22:51.0441 Info Registered target FileTarget(Name=Walletfile)
+2022-12-06 01:22:51.0441 Trace ParseRulesElement
+2022-12-06 01:22:51.0773 Debug Watching file-filter 'NLog.config' in directory: C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0
+2022-12-06 01:22:51.0773 Debug --- NLog configuration dump ---
+2022-12-06 01:22:51.0773 Debug Targets:
+2022-12-06 01:22:51.0773 Debug FileTarget(Name=Walletfile)
+2022-12-06 01:22:51.0773 Debug Rules:
+2022-12-06 01:22:51.0773 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]
+2022-12-06 01:22:51.0773 Debug --- End of NLog configuration dump ---
+2022-12-06 01:22:51.0905 Trace FindReachableObject<System.Object>:
+2022-12-06 01:22:51.0905 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]'
+2022-12-06 01:22:51.0905 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-12-06 01:22:51.0905 Trace  Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-06 01:22:51.0905 Trace   Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-06 01:22:51.0905 Trace   Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 01:22:51.0905 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 01:22:51.0905 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:22:51.0905 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 01:22:51.0905 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:22:51.0905 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-06 01:22:51.0905 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 01:22:51.0905 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 01:22:51.0905 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 01:22:51.1057 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:22:51.1057 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 01:22:51.1057 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:22:51.1057 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 01:22:51.1057 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-06 01:22:51.1057 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-12-06 01:22:51.1057 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-12-06 01:22:51.1057 Info Validating config: TargetNames=Walletfile, ConfigItems=12, FilePath=C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0\NLog.config
+2022-12-06 01:22:51.1210 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-12-06 01:22:51.1210 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-12-06 01:22:51.1210 Trace Initializing Layout Renderer: ${message}
+2022-12-06 01:22:51.1210 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 01:22:51.1210 Trace Initializing Layout Renderer: ${level}
+2022-12-06 01:22:51.1210 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 01:22:51.1210 Trace Initializing Layout Renderer: ${longdate}
+2022-12-06 01:22:51.1366 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-12-06 01:22:51.1366 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:22:51.1366 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 01:22:51.1366 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 01:22:51.1366 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 01:22:51.1366 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:22:51.1366 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 01:22:51.1366 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:22:51.1366 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 01:22:51.1545 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 01:22:51.1545 Trace Initializing Layout Renderer: ${shortdate}
+2022-12-06 01:22:51.1545 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 01:22:51.1545 Trace Initializing C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt
+2022-12-06 01:22:51.1545 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:22:51.1545 Trace Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 01:22:51.1545 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 01:22:51.1545 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:22:51.1545 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 01:22:51.1545 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:22:51.1545 Trace Initializing FileTarget(Name=Walletfile)
+2022-12-06 01:22:51.1717 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-12-06 01:22:51.1717 Trace Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-06 01:22:51.1717 Trace  Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-06 01:22:51.1717 Trace  Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 01:22:51.1717 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-06 01:22:51.1717 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 01:22:51.1717 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-06 01:22:51.1717 Trace FileTarget(Name=Walletfile) has 2 layouts
+2022-12-06 01:22:51.1717 Trace FileTarget(Name=Walletfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-12-06 01:22:51.1867 Info Configuration initialized.
+2022-12-06 01:22:51.2122 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.0.1480. Product version: 5.1.0+5e6708d4d288e03b3ddf321838ec14907016f1b8. GlobalAssemblyCache: False
+2022-12-06 01:22:51.2175 Debug Targets configured when LogLevel >= Debug for Logger: Infrastructure.Logging.Logger
+2022-12-06 01:22:51.2175 Debug Logger Infrastructure.Logging.Logger [Debug] => Walletfile
+2022-12-06 01:22:51.2175 Debug Logger Infrastructure.Logging.Logger [Info] => Walletfile
+2022-12-06 01:22:51.2175 Debug Logger Infrastructure.Logging.Logger [Warn] => Walletfile
+2022-12-06 01:22:51.2175 Debug Logger Infrastructure.Logging.Logger [Error] => Walletfile
+2022-12-06 01:22:51.2175 Debug Logger Infrastructure.Logging.Logger [Fatal] => Walletfile
+2022-12-06 01:22:51.2446 Debug FileTarget(Name=Walletfile): Preparing for new file: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt'
+2022-12-06 01:22:51.2544 Debug FileTarget(Name=Walletfile): Creating file appender: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt'
+2022-12-06 01:22:51.2544 Trace FileTarget(Name=Walletfile): Opening C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt with allowFileSharedWriting=False
+2022-12-06 01:42:08.5415 Info Message Template Auto Format enabled
+2022-12-06 01:42:08.5754 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-12-06 01:42:08.6223 Debug Setting 'NLog.Targets.FileTarget.name' to 'Walletfile'
+2022-12-06 01:42:08.6223 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 01:42:08.6448 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:42:08.6448 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 01:42:08.6544 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 01:42:08.6544 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:42:08.6544 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 01:42:08.6544 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:42:08.6544 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 01:42:08.6544 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:42:08.6544 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 01:42:08.6544 Debug Adding target FileTarget(Name=Walletfile)
+2022-12-06 01:42:08.6544 Info Registered target FileTarget(Name=Walletfile)
+2022-12-06 01:42:08.6544 Trace ParseRulesElement
+2022-12-06 01:42:08.6862 Debug Watching file-filter 'NLog.config' in directory: C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0
+2022-12-06 01:42:08.6862 Debug --- NLog configuration dump ---
+2022-12-06 01:42:08.6862 Debug Targets:
+2022-12-06 01:42:08.6862 Debug FileTarget(Name=Walletfile)
+2022-12-06 01:42:08.6862 Debug Rules:
+2022-12-06 01:42:08.6862 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]
+2022-12-06 01:42:08.6862 Debug --- End of NLog configuration dump ---
+2022-12-06 01:42:08.6862 Trace FindReachableObject<System.Object>:
+2022-12-06 01:42:08.6862 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]'
+2022-12-06 01:42:08.6995 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-12-06 01:42:08.6995 Trace  Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-06 01:42:08.6995 Trace   Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-06 01:42:08.6995 Trace   Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 01:42:08.6995 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 01:42:08.6995 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:42:08.6995 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 01:42:08.6995 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:42:08.6995 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-06 01:42:08.6995 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 01:42:08.6995 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 01:42:08.6995 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 01:42:08.6995 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:42:08.6995 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 01:42:08.6995 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:42:08.6995 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 01:42:08.6995 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-06 01:42:08.6995 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-12-06 01:42:08.6995 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-12-06 01:42:08.6995 Info Validating config: TargetNames=Walletfile, ConfigItems=12, FilePath=C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0\NLog.config
+2022-12-06 01:42:08.7165 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-12-06 01:42:08.7165 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-12-06 01:42:08.7165 Trace Initializing Layout Renderer: ${message}
+2022-12-06 01:42:08.7165 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 01:42:08.7165 Trace Initializing Layout Renderer: ${level}
+2022-12-06 01:42:08.7165 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 01:42:08.7165 Trace Initializing Layout Renderer: ${longdate}
+2022-12-06 01:42:08.7165 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-12-06 01:42:08.7165 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:42:08.7165 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 01:42:08.7165 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 01:42:08.7165 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 01:42:08.7165 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:42:08.7165 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 01:42:08.7165 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:42:08.7165 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 01:42:08.7165 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 01:42:08.7165 Trace Initializing Layout Renderer: ${shortdate}
+2022-12-06 01:42:08.7165 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 01:42:08.7165 Trace Initializing C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt
+2022-12-06 01:42:08.7306 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 01:42:08.7306 Trace Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 01:42:08.7306 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 01:42:08.7306 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:42:08.7306 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 01:42:08.7306 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 01:42:08.7306 Trace Initializing FileTarget(Name=Walletfile)
+2022-12-06 01:42:08.7306 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-12-06 01:42:08.7306 Trace Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-06 01:42:08.7306 Trace  Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-06 01:42:08.7306 Trace  Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 01:42:08.7306 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-06 01:42:08.7306 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 01:42:08.7306 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-06 01:42:08.7306 Trace FileTarget(Name=Walletfile) has 2 layouts
+2022-12-06 01:42:08.7306 Trace FileTarget(Name=Walletfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-12-06 01:42:08.7306 Info Configuration initialized.
+2022-12-06 01:42:08.7496 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.0.1480. Product version: 5.1.0+5e6708d4d288e03b3ddf321838ec14907016f1b8. GlobalAssemblyCache: False
+2022-12-06 01:42:08.7496 Debug Targets configured when LogLevel >= Debug for Logger: Infrastructure.Logging.Logger
+2022-12-06 01:42:08.7496 Debug Logger Infrastructure.Logging.Logger [Debug] => Walletfile
+2022-12-06 01:42:08.7496 Debug Logger Infrastructure.Logging.Logger [Info] => Walletfile
+2022-12-06 01:42:08.7496 Debug Logger Infrastructure.Logging.Logger [Warn] => Walletfile
+2022-12-06 01:42:08.7496 Debug Logger Infrastructure.Logging.Logger [Error] => Walletfile
+2022-12-06 01:42:08.7496 Debug Logger Infrastructure.Logging.Logger [Fatal] => Walletfile
+2022-12-06 01:42:08.7761 Debug FileTarget(Name=Walletfile): Preparing for new file: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt'
+2022-12-06 01:42:08.7833 Debug FileTarget(Name=Walletfile): Creating file appender: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt'
+2022-12-06 01:42:08.7833 Trace FileTarget(Name=Walletfile): Opening C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt with allowFileSharedWriting=False
+2022-12-06 02:04:46.8155 Info Message Template Auto Format enabled
+2022-12-06 02:04:46.8413 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-12-06 02:04:46.8884 Debug Setting 'NLog.Targets.FileTarget.name' to 'Walletfile'
+2022-12-06 02:04:46.8884 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 02:04:46.8884 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:04:46.9031 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 02:04:46.9031 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 02:04:46.9031 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:04:46.9031 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 02:04:46.9031 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:04:46.9031 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 02:04:46.9031 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:04:46.9031 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 02:04:46.9031 Debug Adding target FileTarget(Name=Walletfile)
+2022-12-06 02:04:46.9031 Info Registered target FileTarget(Name=Walletfile)
+2022-12-06 02:04:46.9031 Trace ParseRulesElement
+2022-12-06 02:04:46.9370 Debug Watching file-filter 'NLog.config' in directory: C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0
+2022-12-06 02:04:46.9370 Debug --- NLog configuration dump ---
+2022-12-06 02:04:46.9370 Debug Targets:
+2022-12-06 02:04:46.9370 Debug FileTarget(Name=Walletfile)
+2022-12-06 02:04:46.9370 Debug Rules:
+2022-12-06 02:04:46.9370 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]
+2022-12-06 02:04:46.9370 Debug --- End of NLog configuration dump ---
+2022-12-06 02:04:46.9370 Trace FindReachableObject<System.Object>:
+2022-12-06 02:04:46.9370 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]'
+2022-12-06 02:04:46.9496 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-12-06 02:04:46.9496 Trace  Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-06 02:04:46.9496 Trace   Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-06 02:04:46.9496 Trace   Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 02:04:46.9496 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 02:04:46.9496 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:04:46.9496 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 02:04:46.9496 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:04:46.9496 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-06 02:04:46.9496 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 02:04:46.9496 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 02:04:46.9496 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 02:04:46.9496 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:04:46.9496 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 02:04:46.9496 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:04:46.9496 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 02:04:46.9496 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-06 02:04:46.9496 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-12-06 02:04:46.9496 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-12-06 02:04:46.9496 Info Validating config: TargetNames=Walletfile, ConfigItems=12, FilePath=C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0\NLog.config
+2022-12-06 02:04:46.9496 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-12-06 02:04:46.9681 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-12-06 02:04:46.9681 Trace Initializing Layout Renderer: ${message}
+2022-12-06 02:04:46.9681 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 02:04:46.9681 Trace Initializing Layout Renderer: ${level}
+2022-12-06 02:04:46.9681 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 02:04:46.9681 Trace Initializing Layout Renderer: ${longdate}
+2022-12-06 02:04:46.9681 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-12-06 02:04:46.9681 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:04:46.9681 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 02:04:46.9681 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 02:04:46.9681 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 02:04:46.9681 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:04:46.9681 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 02:04:46.9681 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:04:46.9681 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 02:04:46.9681 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 02:04:46.9681 Trace Initializing Layout Renderer: ${shortdate}
+2022-12-06 02:04:46.9681 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 02:04:46.9681 Trace Initializing C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt
+2022-12-06 02:04:46.9681 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:04:46.9681 Trace Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 02:04:46.9681 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 02:04:46.9681 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:04:46.9681 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 02:04:46.9681 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:04:46.9681 Trace Initializing FileTarget(Name=Walletfile)
+2022-12-06 02:04:46.9814 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-12-06 02:04:46.9814 Trace Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-06 02:04:46.9814 Trace  Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-06 02:04:46.9814 Trace  Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 02:04:46.9814 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-06 02:04:46.9814 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 02:04:46.9814 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-06 02:04:46.9814 Trace FileTarget(Name=Walletfile) has 2 layouts
+2022-12-06 02:04:46.9814 Trace FileTarget(Name=Walletfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-12-06 02:04:46.9814 Info Configuration initialized.
+2022-12-06 02:04:46.9977 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.0.1480. Product version: 5.1.0+5e6708d4d288e03b3ddf321838ec14907016f1b8. GlobalAssemblyCache: False
+2022-12-06 02:04:46.9977 Debug Targets configured when LogLevel >= Debug for Logger: Infrastructure.Logging.Logger
+2022-12-06 02:04:46.9977 Debug Logger Infrastructure.Logging.Logger [Debug] => Walletfile
+2022-12-06 02:04:46.9977 Debug Logger Infrastructure.Logging.Logger [Info] => Walletfile
+2022-12-06 02:04:46.9977 Debug Logger Infrastructure.Logging.Logger [Warn] => Walletfile
+2022-12-06 02:04:46.9977 Debug Logger Infrastructure.Logging.Logger [Error] => Walletfile
+2022-12-06 02:04:46.9977 Debug Logger Infrastructure.Logging.Logger [Fatal] => Walletfile
+2022-12-06 02:04:47.0237 Debug FileTarget(Name=Walletfile): Preparing for new file: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt'
+2022-12-06 02:04:47.0303 Debug FileTarget(Name=Walletfile): Creating file appender: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt'
+2022-12-06 02:04:47.0303 Trace FileTarget(Name=Walletfile): Opening C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt with allowFileSharedWriting=False
+2022-12-06 02:20:27.7784 Info Message Template Auto Format enabled
+2022-12-06 02:20:27.8400 Debug ScanAssembly('NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-12-06 02:20:27.9106 Debug Setting 'NLog.Targets.FileTarget.name' to 'Walletfile'
+2022-12-06 02:20:27.9200 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 02:20:27.9200 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:20:27.9343 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 02:20:27.9343 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 02:20:27.9343 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:20:27.9343 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 02:20:27.9343 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:20:27.9343 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 02:20:27.9343 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:20:27.9343 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 02:20:27.9498 Debug Adding target FileTarget(Name=Walletfile)
+2022-12-06 02:20:27.9498 Info Registered target FileTarget(Name=Walletfile)
+2022-12-06 02:20:27.9498 Trace ParseRulesElement
+2022-12-06 02:20:27.9765 Debug Watching file-filter 'NLog.config' in directory: C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0
+2022-12-06 02:20:27.9765 Debug --- NLog configuration dump ---
+2022-12-06 02:20:27.9765 Debug Targets:
+2022-12-06 02:20:27.9765 Debug FileTarget(Name=Walletfile)
+2022-12-06 02:20:27.9765 Debug Rules:
+2022-12-06 02:20:27.9826 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]
+2022-12-06 02:20:27.9826 Debug --- End of NLog configuration dump ---
+2022-12-06 02:20:27.9826 Trace FindReachableObject<System.Object>:
+2022-12-06 02:20:27.9826 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ Walletfile ]'
+2022-12-06 02:20:27.9826 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-12-06 02:20:27.9826 Trace  Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-06 02:20:27.9826 Trace   Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-06 02:20:27.9826 Trace   Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 02:20:27.9826 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 02:20:27.9967 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:20:27.9967 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 02:20:27.9967 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:20:27.9967 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-06 02:20:27.9967 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 02:20:27.9967 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 02:20:27.9967 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 02:20:27.9967 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:20:27.9967 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 02:20:27.9967 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:20:27.9967 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 02:20:27.9967 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-06 02:20:27.9967 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-12-06 02:20:27.9967 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-12-06 02:20:27.9967 Info Validating config: TargetNames=Walletfile, ConfigItems=12, FilePath=C:\Users\Decagon\source\repos\week-9-10-grp-c\WalletApp\bin\Debug\net6.0\NLog.config
+2022-12-06 02:20:27.9967 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-12-06 02:20:28.0170 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-12-06 02:20:28.0170 Trace Initializing Layout Renderer: ${message}
+2022-12-06 02:20:28.0170 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 02:20:28.0170 Trace Initializing Layout Renderer: ${level}
+2022-12-06 02:20:28.0170 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 02:20:28.0170 Trace Initializing Layout Renderer: ${longdate}
+2022-12-06 02:20:28.0170 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2022-12-06 02:20:28.0280 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:20:28.0280 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 02:20:28.0280 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 02:20:28.0280 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-12-06 02:20:28.0280 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:20:28.0280 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-12-06 02:20:28.0280 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:20:28.0280 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-12-06 02:20:28.0280 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 02:20:28.0280 Trace Initializing Layout Renderer: ${shortdate}
+2022-12-06 02:20:28.0280 Trace Initializing Layout Renderer: ${literal}
+2022-12-06 02:20:28.0280 Trace Initializing C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt
+2022-12-06 02:20:28.0280 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-12-06 02:20:28.0280 Trace Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 02:20:28.0280 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic
+2022-12-06 02:20:28.0280 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:20:28.0280 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-12-06 02:20:28.0280 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-12-06 02:20:28.0280 Trace Initializing FileTarget(Name=Walletfile)
+2022-12-06 02:20:28.0280 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-12-06 02:20:28.0280 Trace Scanning FileTarget 'FileTarget(Name=Walletfile)'
+2022-12-06 02:20:28.0280 Trace  Scanning Property FileName 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt' NLog.Layouts
+2022-12-06 02:20:28.0280 Trace  Scanning SimpleLayout 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\${shortdate} _walletErrorLog.txt'
+2022-12-06 02:20:28.0430 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts
+2022-12-06 02:20:28.0430 Trace  Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2022-12-06 02:20:28.0430 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-12-06 02:20:28.0430 Trace FileTarget(Name=Walletfile) has 2 layouts
+2022-12-06 02:20:28.0430 Trace FileTarget(Name=Walletfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2022-12-06 02:20:28.0430 Info Configuration initialized.
+2022-12-06 02:20:28.0608 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.0.1480. Product version: 5.1.0+5e6708d4d288e03b3ddf321838ec14907016f1b8. GlobalAssemblyCache: False
+2022-12-06 02:20:28.0608 Debug Targets configured when LogLevel >= Debug for Logger: Infrastructure.Logging.Logger
+2022-12-06 02:20:28.0608 Debug Logger Infrastructure.Logging.Logger [Debug] => Walletfile
+2022-12-06 02:20:28.0608 Debug Logger Infrastructure.Logging.Logger [Info] => Walletfile
+2022-12-06 02:20:28.0608 Debug Logger Infrastructure.Logging.Logger [Warn] => Walletfile
+2022-12-06 02:20:28.0608 Debug Logger Infrastructure.Logging.Logger [Error] => Walletfile
+2022-12-06 02:20:28.0608 Debug Logger Infrastructure.Logging.Logger [Fatal] => Walletfile
+2022-12-06 02:20:28.0916 Debug FileTarget(Name=Walletfile): Preparing for new file: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt'
+2022-12-06 02:20:28.0916 Debug FileTarget(Name=Walletfile): Creating file appender: 'C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt'
+2022-12-06 02:20:28.0916 Trace FileTarget(Name=Walletfile): Opening C:\Users\Decagon\source\repos\week-9-10-grp-c\logs\2022-12-06 _walletErrorLog.txt with allowFileSharedWriting=False
